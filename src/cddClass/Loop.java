@@ -5,17 +5,17 @@ import java.util.Scanner;
 
 public class Loop {
     public static void main(String... args){
-        int count = 0;
-        //SecureRandom joe = new SecureRandom();
+        int count = 1;
+        SecureRandom joe = new SecureRandom();
         Scanner input = new Scanner(System.in);
-        for(;;){
-            if (count > 100)
-                break;
-            if (count < 0)
-                break;
-                count = input.nextInt();
+        for(;count < 10;count++){
+//            if (count < 0)
+//                break;
+//            if (count < 0)
+//                break;
+                count = 1+joe.nextInt(10);
                 System.out.println("Huncho");
-                System.out.println("count is " + count);
+                System.out.println("count is "+count);
             }
     }
 }
