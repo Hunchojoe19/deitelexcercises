@@ -32,25 +32,25 @@ public class MyersBriggsAnswerSheet {
     }
     public static void yourPersonalityType(){
         if (extrovert > introvert){
-            System.out.println(extrovert);
+            System.out.println("extrovert");
         } else {
-            System.out.println(introvert);
+            System.out.println("introvert");
         }
         if (sensor > intuition)
         {
-            System.out.println(sensor);
+            System.out.println("sensor");
         }else{
-            System.out.println(intuition);
+            System.out.println("intuition");
         }
         if (thinkers > feelers) {
-            System.out.println(thinkers);
+            System.out.println("thinkers");
         } else {
-            System.out.println(feelers);
+            System.out.println("feelers");
         }
         if (judgers > perceivers){
-            System.out.println(judgers);
+            System.out.println("judgers");
         } else {
-            System.out.println(perceivers);
+            System.out.println("perceivers");
         }
     }
 }

@@ -69,67 +69,79 @@ public class MyersBriggs {
                 A.Seeks many tasks, public activities, interaction with others
                 B. Seek private, solitary activities with quiet to concentrate""");
         answer.equals(user.nextLine().toUpperCase());
+        MyersBriggsAnswerSheet.userIntrovertOrExtrovert(answer);
         System.out.println("""
                 10.
                 A. Standard, usual, conventional
                 B. Different, novel, unique
                 """);
         answer.equals(user.nextLine().toUpperCase());
+        MyersBriggsAnswerSheet.userSensorsOrIntuitors(answer);
         System.out.println("""
                 11.
                 A. Firm,tend to criticize, hold the line
                 B. Gentle, tend to appreciate, conciliate""");
         answer.equals(user.nextLine().toUpperCase());
+        MyersBriggsAnswerSheet.userThinkersOrFeelers(answer);
         System.out.println("""
                 12.
                 A. Regulated, structured
                 B. Easygoing, "live" and "let live"
                 """);
         answer.equals(user.nextLine().toUpperCase());
+        MyersBriggsAnswerSheet.userJudgersOrPerceivers(answer);
         System.out.println("""
                 13.
                 A. External, communicative, express yourself
                 B. Internal, reticent, keep to yourself""");
         answer.equals(user.nextLine().toUpperCase());
+        MyersBriggsAnswerSheet.userIntrovertOrExtrovert(answer);
         System.out.println("""
                 14.
                 A. Focus on here-and -now
                 B. Look to the future, global perspective, "big picture"
                 """);
         answer = user.nextLine().toUpperCase();
+        MyersBriggsAnswerSheet.userSensorsOrIntuitors(answer);
         System.out.println("""
                 15.
                 A. Tough-minded, just
                 B. Tender-hearted, merciful""");
         answer.equals(user.nextLine().toUpperCase());
+        MyersBriggsAnswerSheet.userThinkersOrFeelers(answer);
         System.out.println("""
                 16.
                 A. Preparation, plan ahead
                 B. Go with the flow, adapt as you go
                 """);
         answer.equals(user.nextLine().toUpperCase());
+        MyersBriggsAnswerSheet.userJudgersOrPerceivers(answer);
         System.out.println("""
                 17.
                 A. Active, initiate
                 B. Reflective, deliberate
                 """);
         answer.equals(user.nextLine().toUpperCase());
+        MyersBriggsAnswerSheet.userIntrovertOrExtrovert(answer);
         System.out.println("""
                 18.
                 A. Facts, things, "what is"
                 B. Ideas, dreams, "what could be, philosophical" 
                 """);
         answer.equals(user.nextLine().toUpperCase());
+        MyersBriggsAnswerSheet.userSensorsOrIntuitors(answer);
         System.out.println("""
                 19.
                 A. Matter of fact, issue-oriented
                 B. Sensitive, people-oriented, compassionate""");
         answer.equals(user.nextLine().toUpperCase());
+        MyersBriggsAnswerSheet.userThinkersOrFeelers(answer);
         System.out.println("""
                 20.
                 A. Control, govern
                 B. Latitude, freedom""");
         answer.equals(user.nextLine().toUpperCase());
+        MyersBriggsAnswerSheet.userJudgersOrPerceivers(answer);
 
         MyersBriggsAnswerSheet.yourPersonalityType();
 
