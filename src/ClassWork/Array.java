@@ -58,11 +58,13 @@ public class Array {
         int sum = 0;
         for (int i = 0; i < scores.length; i++) {
             sum = sum + scores[i];
+            System.out.println("the sum of the arrays is: "+sum);
         }
         return sum;
     }
     public static int findAveragefrom(int[] scores) {
         int average = Array.sumofArrays(scores)/ scores.length;
+        System.out.println("The average of the arrays is: "+average);
         return average;
 
     }
